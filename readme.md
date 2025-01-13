@@ -34,10 +34,6 @@ The dataset file (amazon.csv) and precomputed embeddings (amazon_products_with_e
 
 ## Setup Instructions
 
-Prerequisites
-
-Python 3.8+
-
 **Install dependencies**
 
 pip install pandas streamlit sentence-transformers scikit-learn numpy nltk
@@ -45,12 +41,9 @@ pip install pandas streamlit sentence-transformers scikit-learn numpy nltk
 **Run the App**
 
 Clone the repository:
-
-git clone <repo-url>
-cd <repo-directory>
+git clone https://github.com/Rediet-W/Amazon-Product-Recommendation-Search.git
 
 Run the Streamlit app:
-
 streamlit run stream.py
 
 Open the app in your browser (usually at http://localhost:8501).
@@ -67,7 +60,7 @@ Semantic Search: Computes cosine similarity between the query and product embedd
 
 Filtering: Filters like category, rating, and price refine the search results.
 
-sample query and output
+## Sample query and output
 ![sample query](image.png)
 
 ### Dependencies
